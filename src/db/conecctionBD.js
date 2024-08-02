@@ -1,10 +1,5 @@
-/*
-* Arquivo ilustrativo para validar a conexão com o banco de dados
-* Caso queira testar, configure a URL do seu banco criado no Neon Database e execute este arquivo 
-*/
-
-import { Sequelize } from 'sequelize';
-import dotenv from 'dotenv';
+const { Sequelize } = require('sequelize');
+const dotenv = require('dotenv');
 
 dotenv.config();
 
@@ -20,7 +15,6 @@ async function testConnection() {
     try {
         await sequelize.authenticate();
         console.log('Connection has been established successfully.');
-        
     } catch (error) {
         console.error('Unable to connect to the database:', error);
     }
@@ -28,3 +22,4 @@ async function testConnection() {
 
 testConnection();
 
+module.exports = sequelize;
