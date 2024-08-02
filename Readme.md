@@ -21,7 +21,7 @@ Para o banco de dados, em src/db/config/example_Config.json deve ser preenchido 
 Mencione as ferramentas que você usou para criar seu projeto
 
 * [Express](https://expressjs.com/pt-br/) - O framework web usado
-* [NeonDatabase](https://neon.tech/) - Gerente de Dependência
+* [NeonDatabase](https://neon.tech/) - Banco de dados utilizado
 * [Sequelize](https://sequelize.org/) - ORM utilizada para facilitar queries no banco de dados
 
 ## 📌 Versão
