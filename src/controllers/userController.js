@@ -33,7 +33,7 @@ const createUser = async (req, res) => {
       password
     });
 
-    return res.status(201).json(newUser);
+    return res.status(201).json({'Usuário criado!':newUser});
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: 'Erro ao criar usuário.' });
