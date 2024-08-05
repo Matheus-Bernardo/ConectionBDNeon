@@ -3,8 +3,10 @@ const bodyParser = require('body-parser');
 const sequelize = require('./db/conecctionBD');
 const userRoutes = require('./routes/userRoutes');
 const loginRoutes = require('./routes/loginRoutes')
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/users', userRoutes);
 app.use('/login',loginRoutes)
