@@ -14,10 +14,10 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 
 Para o banco de dados, em src/db/config/example_Config.json deve ser preenchido com os dados de seu banco de dados criado
 
-1° - Clone o repositório em sua máquina.
-2° - Rode o comando "npm install"
-3° - Para iniciar o servidor, rode o comando "nodemon ./server.js " dentro do caminho ~/ConectionDBNeon/src
-4° - Para iniciar a aplicação WEB, rode o comando ng serve a partir do caminho /ConectionDBNeon/frontEnd/project
+- 1° - Clone o repositório em sua máquina.
+- 2° - Rode o comando "npm install"
+- 3° - Para iniciar o servidor, rode o comando "nodemon ./server.js " dentro do caminho ~/ConectionDBNeon/src
+- 4° - Para iniciar a aplicação WEB, rode o comando ng serve a partir do caminho /ConectionDBNeon/frontEnd/project
 
 
 ## 🛠️ Construído com
