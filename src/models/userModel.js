@@ -31,6 +31,10 @@ User.init({
       model: 'UserTypes',
       key: 'id'
     }
+  },
+  password:{
+    type: DataTypes.STRING,
+    allowNull:false
   }
 }, {
   sequelize,
